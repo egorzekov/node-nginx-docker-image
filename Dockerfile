@@ -10,7 +10,7 @@ RUN apk add nginx
 # https://github.com/gliderlabs/docker-alpine/issues/185
 RUN mkdir -p /run/nginx
 RUN mkdir -p /usr/app/nginx_logs
-RUN mkdir -p /var/tmp/nginx/client_body
+# RUN mkdir -p /var/tmp/nginx/client_body
 
 RUN npm i -g envsub
 
